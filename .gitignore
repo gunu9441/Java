@@ -29,6 +29,7 @@ gradlew.bat
 settings.gradle
 .idea
 .gradle
+gradle
 build/
 
 # Ignore Gradle GUI config
