@@ -4,7 +4,7 @@ public class Throw {
     public void sayNick(String nick){
         try{
             if("fool".equals(nick)){
-                throw new FoolException();
+                throw new FoolException("FoolException!!");
             }
             System.out.println("Your character is "+nick);
         } catch( FoolException e){
