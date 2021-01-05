@@ -20,10 +20,7 @@ class Parent{
     int a;
     Parent(){
         a = 10;
-        System.out.println("Parent_1");
+        System.out.println("Parent");
     }
-    Parent(int n){
-        a=n;
-        System.out.println("Parent_2");
-    }
+    Parent(int n){a=n;}
 }

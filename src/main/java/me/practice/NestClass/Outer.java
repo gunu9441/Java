@@ -12,7 +12,7 @@ public class Outer {
         moy.hooly = 5;
     }
     static class static_Inner{
-        int hooly = 4;
+        int hooly = 10000;
         static int hey = 3;
         public void display(){
             num = 3;
@@ -33,5 +33,8 @@ public class Outer {
         Outer outer = new Outer();
         Outer.Inner inner =  outer. new Inner();
         Outer.static_Inner sInner =  new  Outer.static_Inner();
+        static_Inner sonner = new static_Inner();
+        System.out.println(sonner.hooly);
+        System.out.println(sInner.hooly);
     }
 }
